@@ -1,0 +1,12 @@
+#include <studio.h>
+#include
+using namespace std;
+
+int main () {
+    int n;
+    int Numero[n];
+    for (int i = 0; i < n; i++) {
+        if (Numero[i] % 2 == 0)
+            cout << Numero[i] << endl;
+    }
+}
